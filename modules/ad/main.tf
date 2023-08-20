@@ -28,7 +28,7 @@ resource "aws_directory_service_directory" "active_dir" {
     subnet_ids = ["subnet-0f87a763d5e69bedb", "subnet-0481cbdc2c69a8d1b"]
   }
 
-  edition = var.AD_type == "ManagedAD" ? "Standard" : null
+  edition = var.AD_type == "MicrosoftAD" ? "Standard" : null
   size    = var.AD_type == "SimpleAD" ? "Small" : null
 
 
