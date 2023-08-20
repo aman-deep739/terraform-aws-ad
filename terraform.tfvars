@@ -7,3 +7,5 @@ public_subnet_1_name = "ace_public_subnet_1_prod"
 public_subnet_2_name = "ace_public_subnet_2_prod"
 
 AD_type = "SimpleAD"
+# AD_type = "ManagedAD"
+
